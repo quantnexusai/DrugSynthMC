@@ -23,3 +23,7 @@ png = "0.17.11"
 
 pyo3 = { version = "0.19.1", features = ["auto-initialize"] }
 xml-rs = "0.8.16"
+
+[lib]
+name = "DrugSynthMC"
+path = "src/lib.rs"
